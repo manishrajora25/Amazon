@@ -1,0 +1,900 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    /* position: relative; */
+    position: sticky;
+    top: 0px;
+   
+
+}
+.amazonlogo{
+    width: 100px;
+    height: 37px;
+    position: absolute;
+    left: 0px;
+    top: 8px;   
+}
+.amazonlogo:hover{
+    border: 1px solid white;
+    
+}
+
+.amazonlogo img{
+    width: 100%;
+    height: 100%;
+    margin: 15px;
+}
+
+.map span i{
+    color: white;
+    font-size:  20px; 
+    position: absolute;
+    left: 148px;
+    top: 28px;
+}
+
+.address{
+    color: white;
+    position: absolute;
+    left: 170px;
+    top: 17px;
+}
+.address p{
+    color: rgba(255, 255, 255, 0.808);
+  font-size: 11px;
+}
+
+.delviry{
+    display: flex;
+}
+.address p h5:hover{
+    border: 1px solid white;
+}
+
+.all select{
+    margin-top: 0.4px;
+    width: 60px;
+    color: white;
+    padding: 7px;
+    border-radius: 8px 5px 5px 8px ;
+    background-color:rgba(255, 255, 255, 0.63);
+    position: absolute;
+    left: 355px;
+    top: 15px;
+}
+
+.all option{
+    color:black;
+}
+
+.all select:hover{
+    transition: 0.1s linear;
+     background-color: rgba(255, 255, 255, 0.418);
+
+}
+
+.Amazonin input{
+    width: 535px;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 7px;
+    position: absolute;
+    left: 412px;
+    top: 15px;
+}
+.more{
+    display: flex;
+}
+.englishus select{
+    color: white;
+  background-color: black;    
+}
+
+.englishus select:hover{
+    background-color: red;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+
+.dropdown3{
+    display: none;
+    position: absolute; 
+    background-color: white;
+    width: 200px;
+    height: 300px;
+   
+}
+.dropdown3 li{
+    font-size: 18px;
+    padding: 2px;
+    background-color: white;
+}
+.block3{
+    
+    font-size: 15px;
+    position: absolute;
+    left: 90px;
+ 
+}
+
+.block3 a{
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.block3:hover .dropdown3{
+display: block;
+
+}
+.dropdown{
+position: absolute;
+left: 915px;
+top: 20px;
+
+}
+
+
+.flagthis{
+    width: 25px;
+    height: 25px;
+}
+.flagthis img{
+    width: 100%;
+    width: 100%;
+}
+
+.colorfor{
+    width: 45px;
+    height: 35px;
+    background-color: rgba(255, 166, 0, 0.651);
+    border-radius: 0px 6px 6px 0px ;
+    position: absolute;
+    top: 17px;
+    left: 900px;
+}
+
+.serach{
+   
+    position: absolute;
+    font-size: 20px;
+    left: 913px;
+    top: 21px;
+}
+
+
+.indianflag{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left:972px ;
+    top: 24px;
+}
+.indianflag img{
+    width: 100%;
+    width: 100%;
+}
+
+.singin a{
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    left:1075px ;
+    top: 18px;
+}
+.singin p{
+    font-size: 12px;
+}
+
+.singin a:hover{
+    transition: 0.1s linear;
+    width: 110px;
+    height: 38px;
+    border: 1px solid white;
+}
+
+
+.return a{
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    left:1200px ;
+    top: 18px;
+}
+
+.return p{
+    font-size: 12px;
+}
+
+.return a:hover{
+    transition: 0.1s linear;
+    padding: 1px;
+    width: 60px;
+    height: 37px;
+    border: 1px solid white;
+}
+
+.cart span i{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 1280px;
+    top: 28px;
+}
+/* .cart h5{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+   left: 70;
+    top: 20px;
+} */
+
+.cart h5{
+    position: absolute;
+    font-size:15px !important ;
+    color: white;
+    left: 1310px;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+.header2{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(44, 44, 61);
+   
+}
+
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.chetsheet span i{
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    top: 7px;
+    left: 18px;
+}
+
+.threeine a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 22px;
+    left: 42px;
+    top: 5px;
+
+}
+
+.threeine a:hover{
+    border: 1px solid white;
+}
+
+.fresh a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 76px;
+    top: 5px;
+}
+.fresh a:hover{
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    transition: 0.1s linear ;
+    padding: 1px;
+    width: 50px;
+    height: 33px;
+}
+
+.mxpyar a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 142px;
+    top: 5px;
+}
+.mxpyar a:hover{
+    border: 1px solid white;
+    transition: 0.1s linear ;
+    padding: 1px;
+    width: 70px;
+    height: 33px;
+}
+
+.Sell a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 232px;
+    top: 5px;
+}
+.Sell a:hover{
+    border: 1px solid white;
+    transition: 0.1s linear ;
+    padding: 1px;
+    width: 40px;
+    height: 33px;
+}
+
+.BestSellers a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 280px;
+    top: 5px;
+}
+.BestSellers a:hover{
+    border: 1px solid white;
+    transition: 0.1s linear ;
+    padding: 1px;
+    width: 90px;
+    height: 33px;
+}
+.Todaydelors a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 390px;
+    top: 5px;
+}
+.Todaydelors a:hover{
+    border: 1px solid white;
+    transition: 0.1s linear ;
+    padding: 1px;
+    width: 100px;
+    height: 33px;
+}
+.Mobiles a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 520px;
+    top: 5px;
+}
+.Mobiles a:hover{
+    border: 1px solid white;
+    transition: 0.1s linear ;
+    padding: 1px;
+    width: 60px;
+    height: 33px;
+}
+.Electronics a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 600px;
+    top: 5px;
+}
+.Electronics a:hover{
+    border: 1px solid white;
+    transition: 0.1s linear ;
+    padding: 1px;
+    width: 80px;
+    height: 33px;
+}
+.HomeKichan a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 710px;
+    top: 5px;
+}
+.HomeKichan a:hover{
+    border: 1px solid white;
+    transition: 0.1s linear ;
+    padding: 1px;
+    width: 110px;
+    height: 33px;
+}
+.Prime a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 850px;
+    top: 5px;
+}
+.Prime a:hover{
+    border: 1px solid white;
+    transition: 0.1s linear ;
+    padding: 1px;
+    width: 50px;
+    height: 33px;
+}
+.Costomerservice a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    left: 917px;
+    top: 5px;
+    
+}
+.Costomerservice a:hover{
+    border: 1px solid white;
+    transition: 0.1s linear ;
+    padding: 1px;
+    width: 128px;
+    height: 33px;
+}
+.shopnow{
+    width: 290px;
+    height: 40px;
+    position: absolute;
+    left: 1046px;
+    top: 0px;
+}
+.shopnow:hover{
+    border: 1px solid white; 
+}
+
+.shopnow img{
+    width: 100%;
+    height: 100%;
+}
+
+.Diwaispacial{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/LEO/Jup24/Phase3/FDFO_PC.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+   
+}
+
+
+.colorfull{
+    background-color: rgb(223, 220, 220);
+    width: 100%;
+    height: 5200px;
+    
+}
+
+.newdels{
+    width: 300px;
+    height: 415px;
+   background-color: white;
+   
+}
+.newdels h3{
+    text-align: center;
+    padding-top: 15px;
+}
+.shopalldetials {
+    width: 260px;
+    height: 300px;
+    margin: 0px 0px ;
+    padding-top: 15px;
+  
+}
+.shopalldetials img{
+    width: 100%;
+    height: 100%;
+}
+.newdels a{
+    margin: 25px 20px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.newdels a:hover{
+    transition: 0.2s linear;
+    color: rgb(175, 39, 39);
+}
+
+.topbrand{
+    width: 300px;
+    height: 425px;
+    margin-top: 20px;
+   background-color: white;
+}
+.topbrand h3{
+    text-align: left;
+    padding-top: 5px 0px 0px 10px;
+    margin: 15px;
+}
+.accessories{
+    width: 260px;
+    height: 300px;
+}
+.accessories img{
+    width: 100%;
+    height: 100%;
+    margin: 0px 20px;
+}
+.topbrand a{
+    text-decoration: none;
+    margin: 20px;
+}
+.topbrand a:hover{
+    transition: 0.2s linear;
+    color: rgb(173, 40, 40);
+}
+
+.fromtopbrands{
+    width: 300px;
+    height: 425px;
+    margin-top: 20px;
+   background-color: white;
+}
+.fromtopbrands h3{
+  margin: 15px;
+}
+
+.kurtas{
+    height: 100px;
+    width: 130px;
+}
+.kurtas img{
+    width: 100%;
+    height: 100%;
+}
+.tops{
+    height: 100px;
+    width: 130px;
+}
+.tops img{
+    width: 100%;
+    height: 100%;
+}
+.kurtastop{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.deseece{
+    height: 100px;
+    width: 130px;
+}
+.deseece img{
+    width: 100%;
+    height: 100%;
+}
+.sarees{
+    height: 100px;
+    width: 130px;
+}
+
+.sarees img{
+    width: 100%;
+    height: 100%;
+}
+.dressessarees{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bestexperience{
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+   background-color: white;
+   margin-top: -216px;
+   margin-bottom: 40px;
+  
+}
+.experience h3{
+    margin-bottom: 20px;
+}
+
+
+.experience a{
+    margin: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(238, 238, 43);
+    color: black;
+    padding: 6px 32px;
+    border-radius: 20px;
+    
+}
+.madefaster{
+    height: 250px;
+    width: 300px;
+    margin-left: -20px;
+}
+.madefaster img{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+.name12{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.Homekitchen{
+    width: 300px;
+    height: 435px;
+    margin-top: 20px;
+   background-color: white;
+}
+.Homekitchen h3{
+    margin: 20px;
+}
+
+.Kichanspplication{
+    height: 100px;
+    width: 130px;
+}
+.Kichanspplication img{
+    width: 100%;
+    height: 100%;
+}
+.Kichanspplication p{
+ font-size: 13px;
+}
+.homemore{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.seealldeles {
+    margin: 50px 14px;
+    text-decoration: none;
+}
+
+.homeimprovment{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Homekitchenmore{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.Trendingdealsunder{
+    margin-top: 40px;
+    width: 1340px;
+    height: 430px;
+    background-color: rgb(236, 184, 88);
+
+}
+.Trendingdealsunder h3{
+    margin: 15px 20px;
+}
+
+.gretindian{
+    width: 260px;
+    height: 250px;
+
+}
+.gretindian img{
+    width: 100%;
+    height: 100%;
+}
+.storis{
+    width: 260px;
+    height: 115px;
+    background-color: white;
+}
+
+.finiss p{
+    background-color: rgb(175, 88, 88);
+    color: white;
+    padding: 1px;
+    width: 70px;
+
+}
+.festival p{
+    color:rgb(175, 88, 88); 
+    font-size: 15px;
+}
+.gratindianfestival{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.pepsi{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.outdoors{
+    width: 1340px;
+    height: 300px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.filterwater{
+    margin: 20px;
+    display: flex;
+}
+.filterwater a{
+    margin: 5px 20px;
+    text-decoration: none;
+}
+.filterwater a:hover{
+    transition: 0.2s linear ;
+    color: rgb(204, 56, 56);
+    text-decoration:underline;
+}
+
+.partnership{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.proticall{
+    width: 300px;
+    height: 435px;
+    margin-top: 20px;
+   background-color: white;
+}
+
+.proticall h3{
+    margin: 15px;
+}
+.evrtdays{
+    width: 250px;
+    height: 310px;
+    margin: auto;
+}
+.evrtdays img{
+    width: 100%;
+    height: 100%;
+  
+}
+
+.viwed {
+    width: 150px;
+    height: 100px;
+    margin: 1px 20px; 
+}
+.viwed a{
+    text-decoration: none;
+}
+.viwed a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.kichensaman{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+hr{
+    margin-top: 200px;
+}
+.recommendations{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.recommendations h2{
+    margin: 10px;
+}
+.recommendations a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(228, 178, 85);
+    padding: 5px 100px ;
+    border-radius: 10px;
+}
+.banktotop{
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px 40px;
+    background-color:#313e4e;
+}
+.banktotop:hover{
+    background-color: #3d4b5c;
+}
+.banktotop a{
+    text-decoration: none;
+    color: white;
+}
+.contentwithus{
+    width: 100%;
+    height: 300px;
+    background-color: #232F3E; 
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #232F3E;
+    color: white;
+    padding: 20px 0;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.footer-section {
+    width: 20%;
+}
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+.language-selector {
+    text-align: center;
+    margin: 20px 0;
+}
+.language-selector select {
+    padding: 5px;
+    color: white;
+    background-color:#232F3E ;
+}
+.footer-bottom {
+    background-color: #131A22;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
